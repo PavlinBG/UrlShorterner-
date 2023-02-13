@@ -1,0 +1,49 @@
+ main {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+  background-color: rgb(212, 233, 164);
+  padding: 9px 10px;
+}
+
+footer {
+  margin-top: 15px;
+  
+}
+
+main {
+  maring-left: 15p;
+}
+
+table {
+  width: 100% 
+  border-collapse: collapse;
+  background-color: #f5fff5
+}
+
+table th, table th {
+  border: 1px solid #ddd;
+}
+
+table th {
+  padding:12px 8px; 
+  text-align: left;
+  color:   white   ;
+  background-color: rgb(107, 182, 109);
+  
+   
+}
+
+table td{
+  padding: 8px;
+  word-break: break-all;
+}
+
+table tr:nth-child(even) {
+  background-color:  #dff0de; 
+}
+
+ table tr:hover (even) {
+  background-color: rgb(198, 207, 180); 
+}

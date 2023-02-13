@@ -1,0 +1,24 @@
+extends layout  
+
+block head 
+  title Add URL
+
+block content 
+ h1 Add URL
+   form(method='post', action='/add-url')
+     table
+      tr 
+        td 
+         label(for='url') URL:
+        td 
+          input#url(type='text', 
+          name='url', value='${url}')
+      tr
+        td
+          label(for='shortCode') Short Code:
+        td 
+           input#shortCode(type='text', 
+           name='shortCode', value='${shortCode}')
+      tr 
+        td(colspan='2')
+          input(type='submit', 'Create')
